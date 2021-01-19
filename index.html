@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-<body>
+<body onload="myFunction()">
     <div id="loading"></div>
     
 <div class="bgimg">
@@ -202,7 +202,18 @@
     <h6 class="text-center">Copyright @ 2020, Design by Mahfuz Hossain- Wonderful Thing</h6>
 </footer>
 
-
+    <script>
+        
+        var preloader = document.getElementById('loading');
+        
+        function myFunction(){
+            preloader.style.display = 'none';
+        
+        }
+    
+    
+    </script>
+   
 
 </body>
 </html>
